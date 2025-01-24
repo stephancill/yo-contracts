@@ -1,0 +1,22 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      solady:
+        specifier: ^0.0.298
+        version: 0.0.298
+
+packages:
+
+  solady@0.0.298:
+    resolution: {integrity: sha512-wHdtoSAyEsAJwHiG1amQ2IxhZk8XxL/YaYF8hf0yT51E5tWwWAohgEDmFwM8RT6Qt6XSsJBC2//kwIoCz/hFQQ==}
+
+snapshots:
+
+  solady@0.0.298: {}

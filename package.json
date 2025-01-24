@@ -1,0 +1,17 @@
+{
+  "name": "yo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "local": "forge script script/DeployTest.s.sol --rpc-url http://127.0.0.1:8545 --broadcast",
+    "deploy": "forge script script/Deploy.s.sol --rpc-url https://mainnet.base.org --broadcast --etherscan-api-key $ETHERSCAN_API_KEY --verify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "solady": "^0.0.298"
+  }
+}
